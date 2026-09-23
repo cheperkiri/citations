@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex system</title>
+
+    <style>
+        /*  les row (rangees) */
+        .row {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .row>* {
+            flex: 1;
+        }
+
+        /* les enfants du row (colonnes) */
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam exercitationem obcaecati illum maxime harum
+            dolorum velit, nostrum quae adipisci autem facere accusamus quo dolores corporis architecto porro. Ea,
+            mollitia modi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque modi qui soluta unde? Molestiae quibusdam
+            enim fuga dicta quo illum officiis aspernatur doloribus deleniti! Necessitatibus distinctio eveniet
+            accusamus iusto!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nostrum molestias nam accusamus. Velit
+            earum deleniti modi, rerum assumenda eveniet quod quam alias fugiat exercitationem quae reiciendis quo
+            perferendis magni!</p>
+    </div>
+    <main class="row">
+        <section>
+            <h1>Why not</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, aut. Ut labore architecto, minus quas
+                error nesciunt voluptatem? Suscipit assumenda aspernatur possimus, ratione enim recusandae expedita iste
+                repellendus consectetur eos.</p>
+        </section>
+        <div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est laborum enim ad fuga at amet
+                    incidunt quibusdam in inventore aliquam facilis sint aperiam, iure, impedit accusantium harum
+                    pariatur. Deserunt.</p>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, veniam optio modi est quibusdam odio
+            assumenda adipisci beatae repudiandae maxime distinctio praesentium, tempora, repellat quas neque quasi
+            dolores eveniet ea?</p>
+    </main>
+
+</body>
+
+</html>
