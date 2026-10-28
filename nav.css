@@ -2,5 +2,20 @@ nav#penel {
     background: blueviolet;
     border: #f1357a;
     max-width: max content;
-
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+nav#panel a {
+    color: inherit;
+    color: #f1357a;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+nav#panel a.hover{
+    background: #f1357a;
+    color: #fff;
+}
+nav#panel a:visited{
+    text-decoration: line line-through;
 }
